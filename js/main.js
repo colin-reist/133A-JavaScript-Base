@@ -10,7 +10,11 @@
 
     let a = 'Bonjour';
     let b = 'toto';
+  const prenom = [prompt('Entrez votre prénom :') + ' ' + prompt('Entrez votre nom : ')];
 
-    console.log(a, b);
+  alert(`Bonjour, ${prenom}`);
+
+
+  console.log(a, b);
 }()); // Main IIFE
 
